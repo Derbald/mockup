@@ -1,0 +1,386 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+}
+
+/* HEARER */
+
+header {
+    height: 106px;
+}
+nav {
+    padding-top: 26px;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    justify-content: center;
+    align-items: center;
+    gap:50%;
+
+}
+
+header nav ul {
+    padding-top: 10px;
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+
+header nav ul li:first-child {
+    color: #CDA274;
+}
+
+/* SECTION ONE */
+
+.first {
+    width: 100%;
+    background: #f5f5f5 url('./img/couch.png') center no-repeat;
+    background-size: auto;
+    border-bottom-left-radius: 250px;
+    padding: 195px 0 250px 120px;
+}
+
+.first__wrapper {
+    max-width: 600px;
+}
+
+.first__wrapper p {
+    text-shadow: 1px 1px #d4c5b3;
+    margin-bottom: 35px;
+}
+
+section h1 {
+    font-family: 'DM Serif Display';
+    text-transform: capitalize;
+    font-size: 80px;
+    text-shadow: 3px 1px #c7ac8e;
+    display: inline-block;
+    margin-bottom: 19px;
+    font-weight: 400;
+    line-height: 96px;
+    letter-spacing: 0.2199999988079071px;
+    text-align: left;
+}
+
+
+section button {
+    text-transform: capitalize;
+    background: rgb(54, 54, 54) url('./img/arrow.svg') no-repeat;
+    background-size: 30px 40px;
+    background-position: 90%;
+    color: white;
+    border: 0;
+    font-size: 15px;
+    border-radius: 10px;
+    padding-left: 15px;
+    text-align: left;
+    width: 150px;
+    height: 70px;
+}
+
+/* SECTION TWO */
+
+.second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 120px 170px 120px;
+    background-color: whitesmoke;
+}
+
+.second__card {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 68px;
+    padding: 75px 40px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+div h3 {
+    font-family: 'DM Serif Display';
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0.2199999988079071px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 17px;
+}
+
+div .vm {
+    background-image: url(img/arrow.svg);
+    background-size: 5% 100%;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-position-x: 65%;
+    font-size: 15px;
+
+}
+
+/* SECTION THREE */
+
+.third {
+    box-sizing: border-box;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+.third .h2 {
+    box-sizing: border-box;
+    display: inline-flex;
+    font-family: 'DM Serif Display';
+    width: 1200px;
+    height: 130px;
+}
+
+.third .h2 h2 {
+    font-family: 'DM Serif Display';
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 65px;
+    letter-spacing: 0.2199999988079071px;
+    text-align: left;
+}
+
+
+.third .p1 {
+    margin-top: 42px;
+    width: 520px;
+}
+
+.third .p2 {
+    display: inline-flex;
+}
+
+.third .p2 p {
+    padding-top: 46px;
+}
+
+.third .p2 .img1 {
+    margin-top: 40px;
+    width: 93px;
+}
+
+.third .img2 {
+    margin-top: 50px;
+}
+
+.third .h2 .img3 {
+    box-sizing: border-box;
+    height: 635px;
+    padding-left: 100;
+}
+
+
+/* SECTTION FOUR */
+
+.fourth {
+    box-sizing: border-box;
+    width: 1200px;
+    height: 675px;
+    margin: auto;
+    background-color: #f4f0ec;
+    border-radius: 70px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+.fourth__header {
+    display: flex;
+    height: 190px;
+    background-color: transparent;
+    flex-shrink: 0;
+    font-family: 'DM Serif Display';
+    font-size: 25px;
+    align-items: center;
+    font-weight: 400;
+    line-height: 59px;
+    letter-spacing: 0.2199999988079071px;
+}
+
+.fourth__header h2 {
+    width: 479px;
+    font-family: 'DM Serif Display';
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 59px;
+    letter-spacing: 0.2199999988079071px;
+    text-align: center;
+}
+
+
+.fourth__main_card {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+
+.fourth__card {
+    padding: 50px 0 0 35px;
+    background-color: white;
+    border-radius: 30px;
+    width: 354px;
+    height: 287px;
+}
+
+.fourth__card h3 {
+    margin: 0;
+    width: 180px;
+    font-size: 30px;
+}
+
+.fourth__card .lisa, .david, .helen {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* SECTION FIVE (LOGO) */
+
+.logo {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 145px;
+}
+
+/* VERY LAST SECTION */
+
+
+.last {
+    box-sizing: border-box;
+    padding-top: 150px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.last .div {
+    text-align: center;
+    padding-top: 20px;
+    border: 1px solid #E7E7E7;
+    border-radius: 62px;
+    width: 387px;
+    height: 515px;
+}
+
+.last div h6 {
+    padding: 21px;
+    font-family: 'DM Serif Display';
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+.last div .p {
+    padding: 7px 0 0 21px;
+    font-family: 'Jost';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2199999988079071px;
+    text-align: left;
+}
+
+.last div .arrow {
+    position: relative;
+    bottom: 37px;
+    left: 135px;
+}
+
+.last div .littlediv {
+    position: relative;
+    bottom: 284px;
+    left: 39px;
+    background-color: white;
+    height: 44px;
+    border-radius: 8px 8px 8px 0px;
+}
+
+.last div .littlediv p {
+    padding: 10px;
+    font-family: 'Jost';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2199999988079071px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+/* SECTION THREE
+
+.third {
+    width: 50%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.third__text h2 {
+    font-family: 'DM Serif Display';
+    font-size: 50px;
+    margin-top: 210px;
+    width: 450px;
+    height: 130px;
+}
+
+.third__text .third__text__p {
+    margin-top: 42px;
+    font-family: 'Jost';
+    font-size: 22px;
+    width: 500px;
+    height: 132px;
+}
+
+.third__text .phone {
+    display: flex;
+    padding-top: 40px;
+}
+
+.third__text .phone img {
+    padding-right: 20px;
+}
+
+.third__text .phone p {
+    padding-top: 6px;
+    font-family: 'Jost';
+    font-size: 22px;
+    width: 154px;
+}
+
+.third__text .third__sec_picture {
+    position: absolute;
+    padding-left: 608px;
+}
+
+.third__text .getfree {
+    padding-top: 50px;
+} */
