@@ -277,16 +277,16 @@ div .vm {
 }
 
 .last .div {
-    text-align: center;
-    padding-top: 20px;
+    padding: 20px;
+    padding-bottom: 40px;
     border: 1px solid #E7E7E7;
     border-radius: 62px;
-    width: 387px;
-    height: 515px;
+    width: 100%;
+    max-width: 387px;
 }
 
 .last div h6 {
-    padding: 21px;
+    padding: 21px 0;
     font-family: 'DM Serif Display';
     font-size: 25px;
     font-weight: 400;
@@ -296,91 +296,104 @@ div .vm {
 }
 
 .last div .p {
-    padding: 7px 0 0 21px;
     font-family: 'Jost';
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.2199999988079071px;
-    text-align: left;
-}
-
-.last div .arrow {
-    position: relative;
-    bottom: 37px;
-    left: 135px;
+    letter-spacing: 0.22px;
 }
 
 .last div .littlediv {
-    position: relative;
-    bottom: 284px;
-    left: 39px;
+    display: inline-block;
+    position: absolute;
+    bottom: 35px;
+    left: 20px;
     background-color: white;
-    height: 44px;
+    padding: 10px;
     border-radius: 8px 8px 8px 0px;
 }
 
 .last div .littlediv p {
-    padding: 10px;
     font-family: 'Jost';
     font-size: 15px;
-    font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.2199999988079071px;
-    text-align: left;
+    letter-spacing: 0.22px;
 }
 
-
-
-
-
-
-
-/* SECTION THREE
-
-.third {
-    width: 50%;
-    margin: auto;
-    box-sizing: border-box;
+.last__imageBlock {
+    position: relative;
+    line-height: 0;
 }
 
-.third__text h2 {
-    font-family: 'DM Serif Display';
-    font-size: 50px;
-    margin-top: 210px;
-    width: 450px;
-    height: 130px;
+.last__imageBlock img {
+    width: 100%;
 }
 
-.third__text .third__text__p {
-    margin-top: 42px;
-    font-family: 'Jost';
-    font-size: 22px;
-    width: 500px;
-    height: 132px;
-}
-
-.third__text .phone {
+.last__bottomBlock {
     display: flex;
-    padding-top: 40px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.third__text .phone img {
-    padding-right: 20px;
-}
+/* FOOTER */
 
-.third__text .phone p {
-    padding-top: 6px;
+.footer__container {
+    padding: 130px 120px 0 120px;
     font-family: 'Jost';
     font-size: 22px;
-    width: 154px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.22px;
 }
 
-.third__text .third__sec_picture {
-    position: absolute;
-    padding-left: 608px;
+
+.footer__container__top {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    min-height: 456px;
 }
 
-.third__text .getfree {
-    padding-top: 50px;
-} */
+.footer__container__top__logo {
+    max-width: 326px;
+}
+
+.footer__container__top__logolist {
+    margin-top: 30px;
+    list-style: none;
+    display: inline-flex;
+    gap: 40px;
+}
+
+.footer__container__top h6 {
+    font-family: 'DM Serif Display';
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.22px;
+    margin-bottom: 21px;
+}
+
+.footer__container__top__list {
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    list-style: none;
+}
+
+.footer__container__top__contact {
+    max-width: 321px;
+}
+
+.footer__container__bottom {
+    border-top: 1px solid #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    min-height: 104px;
+}
+
+.footer__container__bottom .coloured {
+    color: #CDA274;
+}
